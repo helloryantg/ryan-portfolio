@@ -1,0 +1,150 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-logo {
+    color: white;
+    font-weight: 900;
+}
+
+.hero {
+    height: 50vh;
+    background: url('./images/laptop-image.jpeg');
+    background-size: cover;    
+    background-position: right 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding: 0;
+    font-size: 110%;
+    line-height: 30px;
+}
+
+.flexed {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    position: fixed;
+}
+
+#nav-logo {
+    margin-left: 20px;
+}
+
+nav, footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.nav-links, .foot-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links a, .foot-links a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.about-me {
+    background-color: rgba(255, 255, 255 ,0.8);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.skills-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 90%;
+    padding: 20px 0;
+    font-size: 120%;
+    line-height: 40px;
+}
+
+.projects {
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    background-color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    line-height: 22px;
+}
+
+#complete-me {
+    /* background: url('./images/game-page.png'); */
+    background-size: cover;    
+}
+    
+#fizz-quiz {
+    /* background: url('./images/fizz-quiz.png'); */
+    background-size: cover;
+}
+
+#photo-contest {
+    /* background: url('./images/photo-contest.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#blackjack {
+    /* background: url('./images/blackjack.png'); */
+    background-size: cover;
+}
+
+.links {
+    border: 2px solid black;
+    padding: 6px 14px;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#view-work-btn {
+    border: 2px solid black;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+#view-work-btn:hover {
+    border: 4px solid white;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 4px;
+}
