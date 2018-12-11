@@ -120,10 +120,10 @@ nav, footer {
 }
 
 #complete-me-screenshot {
-    /* background: url('./images/complete-me-screenshot.png'); */
-    /* background-size: auto 100%; */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
+    background: url('./images/complete-me-screenshot.png');
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 50%;
     height: 100%;
 }
