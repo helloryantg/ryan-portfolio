@@ -132,24 +132,11 @@ nav, footer {
     width: 50%;
     height: 100%;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
     
-#fizz-quiz {
-    /* background: url('./images/fizz-quiz.png'); */
-    background-size: cover;
-}
-
-#photo-contest {
-    /* background: url('./images/photo-contest.png'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#blackjack {
-    /* background: url('./images/blackjack.png'); */
-    background-size: cover;
-}
-
 .links {
     padding: 8px 14px;
     border-radius: 4px;
@@ -172,10 +159,6 @@ nav, footer {
 
 #view-work-btn:hover {
     background-color: rgba(0, 0, 0, 0.6);
-}
-
-#education {
-
 }
 
 .icons-container {
@@ -278,12 +261,7 @@ nav, footer {
 
 
 /* 520 */
-
 @media (min-width: 520px) {
-    body {
-        
-    }
-    
     #projects-container {
         display: flex;
         /* width: 80%; */
@@ -299,6 +277,7 @@ nav, footer {
     }
 }
 
+/* 720 */
 @media (max-width: 720px) {
     #complete-me {
         flex-direction: column;
@@ -313,4 +292,3 @@ nav, footer {
         width: 100%;
     }
 }
-/* 720 */
