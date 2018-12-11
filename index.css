@@ -320,10 +320,11 @@ img {
         justify-content: flex-end;
         text-align: center;
         background-color: #E4E4E4;
-        height: 600px;
+        height: 500px;
         position: relative;
         top: 20px;
     }
+    
     .links-container {
         display: flex;
         flex-direction: column;
@@ -336,10 +337,12 @@ img {
         flex-direction: column;
         height: auto;
     }
+
     #complete-me-screenshot {
         height: 300px;
         width: 100%;
     }
+
     #complete-me-project {
         height: 300px;
         width: 90%;
@@ -348,5 +351,4 @@ img {
         justify-content: center;
         align-items: center;
     }
-    
 }
