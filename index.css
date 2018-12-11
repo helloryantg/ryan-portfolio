@@ -172,9 +172,44 @@ nav, footer {
 .react, 
 .js,
 .html,
-.css {
+.css,
+.django,
+.github,
+.jquery,
+.python,
+.vsc {
     height: 60px;
     width: 60px;
+}
+
+.vsc {
+    background: url('./images/vsc-icon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.python {
+    background: url('./images/python-icon.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.jquery {
+    background: url('./images/jquery-icon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.github {
+    background: url('./images/github-icon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.django {
+    background: url('./images/django-icon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .mongodb {
@@ -187,12 +222,16 @@ nav, footer {
     background: url('./images/node-icon.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative;
+    top: 3px;
 }
 
 .react {
     background: url('./images/react-icon.png');
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 2px;
 }
 
 .js {
@@ -205,15 +244,18 @@ nav, footer {
     background: url('./images/html5-icon.png');
     background-repeat: no-repeat;
     background-size: 70%;
+    position: relative;
+    top: 7px;
+    margin-left: 5px;
 }
 
 .css {
     background: url('./images/css3-icon.png');
     background-repeat: no-repeat;
     background-size: 74%;
+    position: relative;
+    top: 7px;
 }
-
-
 
 
 /* 520 */
