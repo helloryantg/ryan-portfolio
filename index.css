@@ -46,6 +46,7 @@ a {
 
 nav {
     position: fixed;
+    z-index: 999;
 }
 
 #nav-logo {
@@ -171,7 +172,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100px; */
+    height: 200px;
 }
 
 .mongodb, 
@@ -189,7 +190,6 @@ img {
 .pdf {
     height: 60px;
     width: 60px;
-    z-index: -1;
 }
 
 .pdf {
