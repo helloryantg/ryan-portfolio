@@ -111,9 +111,27 @@ nav, footer {
 }
 
 #complete-me {
-    /* background: url('./images/game-page.png'); */
-    background-size: cover;
     box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+    height: 400px;
+}
+
+#complete-me-screenshot {
+    background: url('./images/complete-me-screenshot.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+}
+
+#complete-me-project {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
 }
     
 #fizz-quiz {
@@ -180,6 +198,7 @@ nav, footer {
 .vsc {
     height: 60px;
     width: 60px;
+    z-index: -1;
 }
 
 .vsc {
@@ -280,4 +299,18 @@ nav, footer {
     }
 }
 
+@media (max-width: 720px) {
+    #complete-me {
+        flex-direction: column;
+        height: auto;
+    }
+    #complete-me-screenshot {
+        height: 300px;
+        width: 100%;
+    }
+    #complete-me-project {
+        height: 300px;
+        width: 100%;
+    }
+}
 /* 720 */
